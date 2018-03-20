@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    tools:context="com.example.saahil.autotorrent.SearchTorrent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/input_box"
+        android:layout_width="368dp"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:inputType="textCapSentences|textAutoComplete|textAutoCorrect"
+        android:hint="Search Torrent..."/>
+
+    <Spinner
+        android:id="@+id/type"
+        android:layout_width="368dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/input_box"
+        android:layout_alignStart="@+id/input_box"
+        android:layout_below="@+id/input_box"
+        android:layout_marginTop="42dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="39dp"></Spinner>
+
+    <Button
+        android:id="@+id/find_button"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Find"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:background = "@drawable/rounded_button"
+        />
+
+</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

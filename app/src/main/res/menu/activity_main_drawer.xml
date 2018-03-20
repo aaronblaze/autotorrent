@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/all"
+            android:icon="@drawable/ic_menu_all"
+            android:title="All" />
+        <item
+            android:id="@+id/audio"
+            android:icon="@drawable/ic_menu_audio"
+            android:title="Audio" />
+        <item
+            android:id="@+id/video"
+            android:icon="@drawable/ic_menu_video"
+            android:title="Video" />
+        <item
+            android:id="@+id/applications"
+            android:icon="@drawable/ic_menu_applications"
+            android:title="Applications" />
+        <item
+            android:id="@+id/games"
+            android:icon="@drawable/ic_menu_games"
+            android:title="Games" />
+        <item
+            android:id="@+id/other"
+            android:icon="@drawable/ic_menu_other"
+            android:title="Other" />
+    </group>
+
+</menu>

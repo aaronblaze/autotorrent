@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Auto Torrent</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="no_internet_connection">No Internet Connection.</string>
+    <string name="no_torrents">Your wishlist is empty.</string>
+    <string name="torrent_details">Torrent Details:</string>
+    <string name="add_torrent">Add Torrent?</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+
+    <string-array name="type">
+        <item>All</item>
+        <item>Audio</item>
+        <item>Video</item>
+        <item>Applications</item>
+        <item>Games</item>
+        <item>Other</item>
+    </string-array>
+</resources>
